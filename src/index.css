@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+
+@theme{
+    --breakpoint-xs: 300px;
+    --breakpoint-md: 860px;
+    --font-brand : 'Radley', sans-serif;
+    --font-body : 'Roboto', sans-serif;
+}
