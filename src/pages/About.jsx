@@ -6,7 +6,7 @@ import UniversityCards from '../components/UniversityCards'
 import Timeline from '../components/Timeline'
 
 const About = () => {
-  const [cardOpen, setCardOpen] = React.useState(false);
+  // const [cardOpen, setCardOpen] = React.useState(false);
   return (
     <>
         <div className="shadow-lg border border-blue-100  rounded-3xl py-10 px-5 sm:p-20 mt-20 mb-10 mx-10">
@@ -24,7 +24,7 @@ const About = () => {
           < UniversityCards />
         </div>
 
-        <div className='shadow-lg border border-blue-100  rounded-3xl py-10 px-5 sm:p-20 mt-20 mb-10 mx-2 sm:mx-10'>
+        <div className='shadow-lg border border-blue-100  rounded-3xl py-10 px-5 sm:p-20 mt-10 mb-10 mx-2 sm:mx-10'>
           <h1 className="text-4xl text-center pb-14 font-thin">Milestones & Honors</h1>
           <Timeline />
         </div>
